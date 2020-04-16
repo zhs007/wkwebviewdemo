@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2590F34C244742B000F2B80C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590F34B244742B000F2B80C /* AppDelegate.m */; };
+		2590F34F244742B000F2B80C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590F34E244742B000F2B80C /* SceneDelegate.m */; };
+		2590F352244742B000F2B80C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590F351244742B000F2B80C /* ViewController.m */; };
+		2590F355244742B000F2B80C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2590F353244742B000F2B80C /* Main.storyboard */; };
+		2590F357244742B200F2B80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2590F356244742B200F2B80C /* Assets.xcassets */; };
+		2590F35A244742B200F2B80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2590F358244742B200F2B80C /* LaunchScreen.storyboard */; };
+		2590F35D244742B200F2B80C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590F35C244742B200F2B80C /* main.m */; };
+		2590F367244742B200F2B80C /* drakewebviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590F366244742B200F2B80C /* drakewebviewTests.m */; };
+		2590F372244742B200F2B80C /* drakewebviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590F371244742B200F2B80C /* drakewebviewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2590F363244742B200F2B80C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2590F33F244742AF00F2B80C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2590F346244742B000F2B80C;
+			remoteInfo = drakewebview;
+		};
+		2590F36E244742B200F2B80C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2590F33F244742AF00F2B80C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2590F346244742B000F2B80C;
+			remoteInfo = drakewebview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2590F347244742B000F2B80C /* drakewebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drakewebview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2590F34A244742B000F2B80C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2590F34B244742B000F2B80C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2590F34D244742B000F2B80C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2590F34E244742B000F2B80C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2590F350244742B000F2B80C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2590F351244742B000F2B80C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2590F354244742B000F2B80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2590F356244742B200F2B80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2590F359244742B200F2B80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2590F35B244742B200F2B80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2590F35C244742B200F2B80C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2590F362244742B200F2B80C /* drakewebviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drakewebviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2590F366244742B200F2B80C /* drakewebviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drakewebviewTests.m; sourceTree = "<group>"; };
+		2590F368244742B200F2B80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2590F36D244742B200F2B80C /* drakewebviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drakewebviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2590F371244742B200F2B80C /* drakewebviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drakewebviewUITests.m; sourceTree = "<group>"; };
+		2590F373244742B200F2B80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2590F344244742B000F2B80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2590F35F244742B200F2B80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2590F36A244742B200F2B80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2590F33E244742AF00F2B80C = {
+			isa = PBXGroup;
+			children = (
+				2590F349244742B000F2B80C /* drakewebview */,
+				2590F365244742B200F2B80C /* drakewebviewTests */,
+				2590F370244742B200F2B80C /* drakewebviewUITests */,
+				2590F348244742B000F2B80C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2590F348244742B000F2B80C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2590F347244742B000F2B80C /* drakewebview.app */,
+				2590F362244742B200F2B80C /* drakewebviewTests.xctest */,
+				2590F36D244742B200F2B80C /* drakewebviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2590F349244742B000F2B80C /* drakewebview */ = {
+			isa = PBXGroup;
+			children = (
+				2590F34A244742B000F2B80C /* AppDelegate.h */,
+				2590F34B244742B000F2B80C /* AppDelegate.m */,
+				2590F34D244742B000F2B80C /* SceneDelegate.h */,
+				2590F34E244742B000F2B80C /* SceneDelegate.m */,
+				2590F350244742B000F2B80C /* ViewController.h */,
+				2590F351244742B000F2B80C /* ViewController.m */,
+				2590F353244742B000F2B80C /* Main.storyboard */,
+				2590F356244742B200F2B80C /* Assets.xcassets */,
+				2590F358244742B200F2B80C /* LaunchScreen.storyboard */,
+				2590F35B244742B200F2B80C /* Info.plist */,
+				2590F35C244742B200F2B80C /* main.m */,
+			);
+			path = drakewebview;
+			sourceTree = "<group>";
+		};
+		2590F365244742B200F2B80C /* drakewebviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2590F366244742B200F2B80C /* drakewebviewTests.m */,
+				2590F368244742B200F2B80C /* Info.plist */,
+			);
+			path = drakewebviewTests;
+			sourceTree = "<group>";
+		};
+		2590F370244742B200F2B80C /* drakewebviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2590F371244742B200F2B80C /* drakewebviewUITests.m */,
+				2590F373244742B200F2B80C /* Info.plist */,
+			);
+			path = drakewebviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2590F346244742B000F2B80C /* drakewebview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2590F376244742B200F2B80C /* Build configuration list for PBXNativeTarget "drakewebview" */;
+			buildPhases = (
+				2590F343244742B000F2B80C /* Sources */,
+				2590F344244742B000F2B80C /* Frameworks */,
+				2590F345244742B000F2B80C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = drakewebview;
+			productName = drakewebview;
+			productReference = 2590F347244742B000F2B80C /* drakewebview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2590F361244742B200F2B80C /* drakewebviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2590F379244742B200F2B80C /* Build configuration list for PBXNativeTarget "drakewebviewTests" */;
+			buildPhases = (
+				2590F35E244742B200F2B80C /* Sources */,
+				2590F35F244742B200F2B80C /* Frameworks */,
+				2590F360244742B200F2B80C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2590F364244742B200F2B80C /* PBXTargetDependency */,
+			);
+			name = drakewebviewTests;
+			productName = drakewebviewTests;
+			productReference = 2590F362244742B200F2B80C /* drakewebviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2590F36C244742B200F2B80C /* drakewebviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2590F37C244742B200F2B80C /* Build configuration list for PBXNativeTarget "drakewebviewUITests" */;
+			buildPhases = (
+				2590F369244742B200F2B80C /* Sources */,
+				2590F36A244742B200F2B80C /* Frameworks */,
+				2590F36B244742B200F2B80C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2590F36F244742B200F2B80C /* PBXTargetDependency */,
+			);
+			name = drakewebviewUITests;
+			productName = drakewebviewUITests;
+			productReference = 2590F36D244742B200F2B80C /* drakewebviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2590F33F244742AF00F2B80C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = zerrozhao;
+				TargetAttributes = {
+					2590F346244742B000F2B80C = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					2590F361244742B200F2B80C = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 2590F346244742B000F2B80C;
+					};
+					2590F36C244742B200F2B80C = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 2590F346244742B000F2B80C;
+					};
+				};
+			};
+			buildConfigurationList = 2590F342244742AF00F2B80C /* Build configuration list for PBXProject "drakewebview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2590F33E244742AF00F2B80C;
+			productRefGroup = 2590F348244742B000F2B80C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2590F346244742B000F2B80C /* drakewebview */,
+				2590F361244742B200F2B80C /* drakewebviewTests */,
+				2590F36C244742B200F2B80C /* drakewebviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2590F345244742B000F2B80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2590F35A244742B200F2B80C /* LaunchScreen.storyboard in Resources */,
+				2590F357244742B200F2B80C /* Assets.xcassets in Resources */,
+				2590F355244742B000F2B80C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2590F360244742B200F2B80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2590F36B244742B200F2B80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2590F343244742B000F2B80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2590F352244742B000F2B80C /* ViewController.m in Sources */,
+				2590F34C244742B000F2B80C /* AppDelegate.m in Sources */,
+				2590F35D244742B200F2B80C /* main.m in Sources */,
+				2590F34F244742B000F2B80C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2590F35E244742B200F2B80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2590F367244742B200F2B80C /* drakewebviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2590F369244742B200F2B80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2590F372244742B200F2B80C /* drakewebviewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2590F364244742B200F2B80C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2590F346244742B000F2B80C /* drakewebview */;
+			targetProxy = 2590F363244742B200F2B80C /* PBXContainerItemProxy */;
+		};
+		2590F36F244742B200F2B80C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2590F346244742B000F2B80C /* drakewebview */;
+			targetProxy = 2590F36E244742B200F2B80C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2590F353244742B000F2B80C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2590F354244742B000F2B80C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2590F358244742B200F2B80C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2590F359244742B200F2B80C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2590F374244742B200F2B80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2590F375244742B200F2B80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2590F377244742B200F2B80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D955CS4X4V;
+				INFOPLIST_FILE = drakewebview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.heyalgo..drakewebview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2590F378244742B200F2B80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D955CS4X4V;
+				INFOPLIST_FILE = drakewebview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.heyalgo..drakewebview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2590F37A244742B200F2B80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = drakewebviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.heyalgo..drakewebviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/drakewebview.app/drakewebview";
+			};
+			name = Debug;
+		};
+		2590F37B244742B200F2B80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = drakewebviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.heyalgo..drakewebviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/drakewebview.app/drakewebview";
+			};
+			name = Release;
+		};
+		2590F37D244742B200F2B80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = drakewebviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.heyalgo..drakewebviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = drakewebview;
+			};
+			name = Debug;
+		};
+		2590F37E244742B200F2B80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = drakewebviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.heyalgo..drakewebviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = drakewebview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2590F342244742AF00F2B80C /* Build configuration list for PBXProject "drakewebview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2590F374244742B200F2B80C /* Debug */,
+				2590F375244742B200F2B80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2590F376244742B200F2B80C /* Build configuration list for PBXNativeTarget "drakewebview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2590F377244742B200F2B80C /* Debug */,
+				2590F378244742B200F2B80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2590F379244742B200F2B80C /* Build configuration list for PBXNativeTarget "drakewebviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2590F37A244742B200F2B80C /* Debug */,
+				2590F37B244742B200F2B80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2590F37C244742B200F2B80C /* Build configuration list for PBXNativeTarget "drakewebviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2590F37D244742B200F2B80C /* Debug */,
+				2590F37E244742B200F2B80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2590F33F244742AF00F2B80C /* Project object */;
+}
